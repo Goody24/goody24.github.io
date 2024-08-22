@@ -1,0 +1,92 @@
+html {
+	box-sizing: border-box;
+  }
+  *, *:before, *:after {
+	box-sizing: inherit;
+  }
+  body {
+	  font-family: Arial, Helvetica, sans-serif;
+	  margin: 0;
+	  padding: 0;
+	  background-image: url(../img/Untitled-2.jpg);
+  }
+  .wrapper {
+	  width: 80%;
+	  margin: 0 auto;
+	  padding: 1em;
+	  display: flex;
+	  flex-flow: row nowrap;
+	  background-color: #f21313;
+  
+  }
+  section {
+	  flex-basis: 57%;
+	  margin-right: 10%;
+  }
+  aside {
+	  flex-basis: 33%;
+  }
+p, [for="ABDUCTION"]   {
+	margin-bottom: 0;
+	font-size: 2rem;
+	margin-top: 2rem;
+	/* MARGIN: 2REM 0 0 0;*/
+}
+  fieldset {
+	border: 2PX solid black;
+	border-radius: 10PX;
+	margin-bottom: 2REM;
+	margin-top: 2REM;
+  }
+  legend{
+	font-weight: bold;
+	font-size: 2REM;
+	margin-top: 1.5REM;
+	margin-bottom: 1REM;
+	display: block;
+  }
+  LABEL {
+	display: block;
+	font-size: 1.5REM;
+  }
+  textarea {
+	height: 10REM;
+	padding: 1REM;
+  }
+  select{
+	font-size: 1.5REM;
+  }
+  button{
+	font-size: 2REM;
+	margin: 2REM 0;
+	border: NONE;
+	background-color: #10eddf;
+	color: rgb(187, 156, 19);
+	padding: 0.5rem 1REM;
+	border-radius: 10PX;
+  }
+  BUTTON:hover{
+	  background-color: #f21313;
+	  color: #bb3;
+  }
+  input:not([type="radio"]):not([type="checkbox"]), textarea, select{
+	display: block;
+	width: 30REM;
+	margin-bottom: 2REM;
+	height: 2REM;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1rem;
+	padding: 0 1REM;
+	border-radius: 10px;
+	border: none;
+
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  

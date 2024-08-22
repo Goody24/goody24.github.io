@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSR FORM</title>
+    <link href="css/RCCGFORM.CSS" rel="stylesheet">
+</head>
+<body>
+    <section>
+    <FORM>
+    <H1>CHRISTIAN SOCIAL RESPONSIBILITY (CSR): MONTHLY REPORTING FORM</H1>
+    <fieldset>
+        <label FOR="CATEGORY">CATEGORY/TYPE OF CSR ACTIVITY</label>
+        <select ID="CATEGORY" NAME="CATEGORY">
+            <option selected>SELECT CATEGORY</option>
+            <OPTION VALUE="SOCIAL"> SOCIAL</OPTION>
+            <OPTION VALUE="SOCIAL"> HEALTH</OPTION>
+            <OPTION VALUE="SOCIAL"> EDUCATION </OPTION>
+            <OPTION VALUE="SOCIAL"> SPORTS </OPTION>
+        </select>
+    </fieldset>
+    <fieldset>
+    <LABEL FOR="OFFERING"> CSR 3RD SUNDAY OFFERING</LABEL>
+    <input type="OFFERING" ID="OFFERING" NAME="OFFERING">
+    </fieldset>
+    <fieldset>
+        <LABEL FOR="DATE"> DATE OF CSR ACTIVITY</LABEL>
+        <input type="DATE" ID="DATE" NAME="DATE">
+        </fieldset>
+    <fieldset>
+        <P>DESCRIPTION OF ACTIVITES </P>
+    <label>
+        <input type="radio" NAME="DOA" VALUE="LIGHT REFRESHMENT">LIGHT REFRESHMENT
+    </label>
+    <label>
+        <input type="radio" NAME="DOA" VALUE="GIFT ITEMS">GIFT ITEMS
+    </label>
+    <label>
+        <input type="radio" NAME="DOA" VALUE="VISITATION">VISITATION
+    </label>
+    <label>
+        <input type="radio" NAME="DOA" VALUE="EVANGELISM">EVANGELISM
+    </label>
+    </fieldset>
+    <fieldset>
+    <label FOR="QTY">QUANTITY OF BENEFICIARIES</label>
+        <input type="number" NAME="QTY" ID="QTY" MIN="3" MAX="40000">
+    </fieldset>
+    <fieldset>
+        <label FOR="LOCATION">ADDRESS/LOCATION</label>
+        <textarea ID="ADDRESS" NAME="ADDRESS"></textarea>
+    </fieldset>
+    <fieldset>
+        <label FOR="STATE">BENEFICIARY STATE </label>
+        <select ID="STATE" NAME="STATE">
+            <option selected>SELECT STATE </option>
+            <OPTION VALUE="ABIA">ABIA</OPTION>
+            <OPTION VALUE="BENUE"> BENUE</OPTION>
+            <OPTION VALUE="EBONYI"> EBONYI </OPTION>
+            <OPTION VALUE="IMO" > IMO </OPTION>
+            <OPTION VALUE="OGUN"> OGUN</OPTION>
+            <OPTION VALUE="GOMBE"> GOMBE/OPTION>  
+        </select>
+    </fieldset>
+    <fieldset>
+        <LABEL FOR="COMMENT">REMARK & COMMENT:</LABEL>
+			<textarea ID="COMMENT" NAME="COMMENT"></textarea>
+    </fieldset>
+    <button type="submit">SUBMIT HERE</button>
+    <script src="js/forms.js"></script>
+</FORM>   
+</section>
+</body>
+</html>
